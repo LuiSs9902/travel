@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: right;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-image: linear-gradient(70deg,rgb(63, 208, 212), rgb(247, 47, 170));
+}
+/* begin video */
+    .video-winter{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .ivideo{
+        width: 50%;
+        height: 450px;
+    }
+    .video-winter p{
+        padding: 20px;
+    }
+    .video-winter button{
+        padding: 10px 20px;
+        background-color: rgb(11, 208, 208);
+        color: #fff;
+        border: none;
+        font-weight: bold;
+        transition: 1s;
+        letter-spacing: 1.2;
+    }
+    .video-winter button:hover{
+        transform: scale(1.1);
+    }
+
+/* end video */
+/* Begin Review */
+.review{
+    background-image: url(../img/anh12.jpg);
+    height: 588px;
+    opacity: 0.8;
+    font-family: sans-serif;
+    position: relative;
+}
+.review .intro-review{
+    color: #fff;
+}
+    .intro-review .sub-title{
+        font-family:'Satisfy', cursive;
+        color: rgb(63, 208, 212);
+        font-size: 30px;
+    }
+
+    .intro-review{
+        text-align: center;
+        padding: 80px 0 48px 0;
+    }
+        .intro-review .title{
+            font-size: 64px;
+            font-family: sans-serif;
+        }
+        .intro-review .winter-intro{
+            font-size: 14px;
+            margin: 12px;
+            letter-spacing: 1px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+            /* width: 656px; */
+        
+    .review-user{
+        display: flex;
+        overflow:scroll;
+        
+    }
+    
+    .review-item{
+        height: 230px;
+        min-width: 490px;
+        background-color: #fff;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        margin: 10px;
+    }
+            .item-img img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50px;
+                margin: 30px 0 30px 30px;
+            }
+        .item-intro{
+            margin: 30px;
+        }
+            .item-intro p{
+                margin-bottom:18px ;
+
+            }
+            .item-intro .name{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .item-intro .rate{
+                font-size: 20px;
+                font-weight: 900;
+                color: rgb(63, 208, 212);
+            }
+            .item-intro .comment{
+                font-size: 14px;
+                opacity: 0.7;
+            }
+            .item-intro .place-travel{
+                padding: 10px 0;
+                font-weight: bold;
+            }
+        .review-comment{
+            background-image: linear-gradient(135deg, #008aff, #86d472);
+            border-radius: 30px;
+            box-sizing: border-box;
+            color: rgb(63, 208, 212);
+            display: block;
+            height: 40px;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 4px;
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+            text-decoration: none;
+            text-align: center;
+            width: 7em;
+            cursor: pointer;
+        }
+        .review-comment:hover{
+            color: #fff;
+        }
+        .review-comment .btn1 {
+            align-items: center;
+            background: #ffff;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            transition: background 0.5s ease;
+            width: 100%;
+          }
+         .review-comment:hover .btn1 {
+            background: transparent;
+          }
+/* End Review */
+/* Begin css holiday */
+.tienich{
+    display: flex;
+    margin: auto 10%;
+}
+    .tienich-item{
+        width: calc(100/4);
+        padding: 0 9px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .tienich-item img{
+        width: 30%;
+        margin: 18px 12px;
+        transition: 1.2s;  
+    }
+    .tienich-item img:hover{
+        transform: scale(1.1); 
+        
+    }
+    .ti-it-title{
+        padding: 8px;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+    .ti-it-intro{
+        padding: 12px;
+        font-size: 14px;
+        font-family: sans-serif;
+        font-weight: 500;
+        opacity: 0.8;
+        line-height: 20px;
+    }
+/* End css holiday */
+/* begin country */
+.country{
+    display: flex;
+    margin-bottom: 20px;
+}
+.country-item{
+     width: 340px;
+    height: 340px;
+    position: relative;
+    /* padding: 0 15px; */
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.country-item img{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    transition: 1.2s;
+    filter: brightness(0.8);
+}
+.country-item img:hover{
+    transform: scale(1.1);
+}
+.country-item p{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: satasfy,cursive;
+    font-size: 50px;
+    color: #fff;
+}
+/* end country */
